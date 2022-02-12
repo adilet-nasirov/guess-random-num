@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+.App {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  height: 100vh;
+  /* align-items: flex-start; */
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding-top: 50px; */
+  /* justify-content: center; */
+  /* height: 400px; */
+}
+.attempts {
+  /* background-color: aquamarine; */
+  text-align: right;
+  font-size: 1.5rem;
+  color: brown;
+}
+.hintClick {
+  text-align: center;
+  margin-top: 20px;
+  /* background-color: azure; */
+}
+.inputs {
+  font-size: 1.7rem;
+  padding: 4px 10px;
+  width: 100px;
+  margin: 10px;
+}
+.inputDiv {
+  margin-top: 10rem;
+}
+label {
+  font-size: 1.4rem;
+}
+.pForGuess {
+  font-size: 2rem;
+  text-align: center;
+}
+#guessInput {
+  font-size: 1.7rem;
+  padding: 4px 10px;
+  width: 100px;
+}
+.guess {
+  text-align: center;
+}
+.submit {
+  font-size: 1.7rem;
+  padding: 4px;
+  margin-left: 10px;
+}
+.btn {
+  text-align: center;
+  padding-top: 20px;
+}
