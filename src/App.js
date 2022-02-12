@@ -49,6 +49,10 @@ class App extends React.Component {
           } else {
             // if user doesn't want to play again web page closes
             window.close();
+            window.addEventListener("beforeunload", (event) => {
+              // set a truthy value to property returnValue
+              event.returnValue = true;
+            });
           }
         }, 2000);
       }, 100);
