@@ -65,3 +65,21 @@ label {
   text-align: center;
   padding-top: 20px;
 }
+.modal {
+  border: 1px solid rgb(240, 18, 18);
+  border-radius: 7px;
+  margin-top: 20px;
+  padding: 5px 10px;
+  background-color: rgb(245, 223, 223);
+  box-shadow: 3px 3px 7px 1px rgba(0, 0, 0, 0.35);
+}
+
+.winModal {
+  border: 1px solid rgb(9, 218, 96);
+  border-radius: 7px;
+  color: white;
+  margin-top: 20px;
+  padding: 5px 10px;
+  background-color: rgb(12, 155, 12);
+  box-shadow: 3px 3px 7px 1px rgba(0, 0, 0, 0.35);
+}
